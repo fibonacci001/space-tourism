@@ -153,7 +153,7 @@ tabLinks.forEach(link => {
           break;
   
           case '#pills-titans': 
-          crewImage.src = './assets/crew/image-Anousheh-Ansari.webp';
+          crewImage.src = './assets/crew/image-AnoushehAnsari.png';
           number.textContent = '04'
           break;
         // etc for other tabs
@@ -164,7 +164,7 @@ tabLinks.forEach(link => {
     });
   
   });
-  desktopMediaQuery.addListener(setImageSize);
+
 
 
 

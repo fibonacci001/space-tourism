@@ -43,7 +43,7 @@ menu.addEventListener('click', () => {
 });
 
 
-
+const desktopMediaQuery = window.matchMedia('(max-width: 768px)');
 
 if(desktopMediaQuery.matches) {
   menu.addEventListener('click', () => {
