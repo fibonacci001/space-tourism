@@ -349,14 +349,14 @@ h1 {
 
 h2 {
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 body {
   background-image: url('./assets/home/background-home-mobile.jpg');
   background-repeat: no-repeat;
 }
 section {
-  margin-top: 1rem;
+  margin-top: 6rem;
 }
 .my_logo {
   width: 24px;
