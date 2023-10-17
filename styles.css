@@ -230,6 +230,11 @@ button:hover {
     /* display: none; */
     width: 12rem;
   }  
+  body {
+    background-image: url('./assets/home/background-home-tablet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
 }
 @media (max-width:790px)  {
@@ -357,7 +362,7 @@ body {
   background-size: cover;
 }
 section {
-  margin-top: 16rem;
+  margin-top: 7rem;
 }
 .my_logo {
   width: 24px;
