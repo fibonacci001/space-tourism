@@ -12,7 +12,7 @@ nav {
     
 }
 .loader {
-  background: #ffffff url('../starter-code/assets/shared/LOADER.gif') center no-repeat;
+  background: #ffffff url('./starter-code/assets/shared/LOADER.gif') center no-repeat;
   background-size: 20%;
   height: 100vh;
   width: 100%;
@@ -95,7 +95,7 @@ h1 {
 
 body {
     color: white;
-    background-image: url('../starter-code/assets/home/background-home-desktop.jpg');
+    background-image: url('./starter-code/assets/home/background-home-desktop.jpg');
 }
 .button_div {
     position: relative;
@@ -352,7 +352,7 @@ h2 {
   margin-bottom: 1rem;
 }
 body {
-  background-image: url('../starter-code/assets/home/background-home-mobile.jpg');
+  background-image: url('./starter-code/assets/home/background-home-mobile.jpg');
 }
 section {
   margin-top: 1rem;
