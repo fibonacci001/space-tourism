@@ -3,7 +3,7 @@ nav {
     position: relative;
 }
 body {
-    background-image: url('../starter-code/assets/crew/background-crew-desktop.jpg');
+    background-image: url('./assets/crew/background-crew-desktop.jpg');
     /* height: 100vh; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,7 +165,7 @@ hr {
     width: 340px;
 }
 .loader {
-  background: #ffffff url('../starter-code/assets/shared/LOADER.gif') center no-repeat;
+  background: #ffffff url('./assets/shared/LOADER.gif') center no-repeat;
   background-size: 20%;
   height: 100vh;
   width: 100%;
@@ -473,7 +473,7 @@ hr {
       text-align: center;
     }
     body {
-      background-image: url('../starter-code/assets/crew/background-crew-mobile.jpg');
+      background-image: url('./assets/crew/background-crew-mobile.jpg');
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -526,4 +526,9 @@ hr {
           display: flex;
           flex-direction: column-reverse;
         }
+
+        section {
+          margin-top: 5rem;
+        }
+    
       }

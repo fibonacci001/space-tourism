@@ -72,6 +72,19 @@ tabLinks.forEach(tab => {
 
   });
 
+
+
+  const desktopMediaQueryer = window.matchMedia('(max-width: 768px)');
+  if(desktopMediaQueryer.matches) {
+    menu.addEventListener('click', () => {
+      line.style.width = '0%';
+    });
+    cancel.addEventListener('click', () => {
+      line.style.width = '75%'
+    })
+  };
+
+
   
   function setImageSize() {
     const tabName = activeTab.split('-').pop();
@@ -113,7 +126,7 @@ function setDefaultImageSize() {
 
 
 
-crewImage.src = '../starter-code/assets/crew/image-douglas-hurley.png'; 
+crewImage.src = './assets/crew/image-douglas-hurley.png'; 
 const number = document.querySelector('.num');
 tabLinks.forEach(link => {
 
@@ -125,22 +138,22 @@ tabLinks.forEach(link => {
       // Update image based on tab ID
       switch(tabID) {
         case '#pills-home':
-         crewImage.src = '../starter-code/assets/crew/image-douglas-hurley.png';
+         crewImage.src = './assets/crew/image-douglas-hurley.png';
           number.textContent = '01'
           break;
         case '#pills-profile': 
-        crewImage.src = '../starter-code/assets/crew/image-Mark-Shuttleworth.png';
+        crewImage.src = './assets/crew/image-Mark-Shuttleworth.png';
           
           number.textContent = '02'
           break;
   
           case '#pills-contact': 
-          crewImage.src = '../starter-code/assets/crew/image-victor-glover.png';
+          crewImage.src = './assets/crew/image-victor-glover.png';
           number.textContent = '03'
           break;
   
           case '#pills-titans': 
-          crewImage.src = '../starter-code/assets/crew/image-Anousheh-Ansari.png';
+          crewImage.src = './assets/crew/image-Anousheh-Ansari.png';
           number.textContent = '04'
           break;
         // etc for other tabs
@@ -153,3 +166,7 @@ tabLinks.forEach(link => {
   
   });
   desktopMediaQuery.addListener(setImageSize);
+
+
+
+  

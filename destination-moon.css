@@ -349,7 +349,7 @@ h1 {
       height: 100vh;
       padding-top: 100px;
       background-color: #ffffff1e ;
-      backdrop-filter: blur(10px);
+      backdrop-filter: blur(30px);
       
   }
   
@@ -505,7 +505,9 @@ body {
       width: 20px;
       height: 20px;
     }
-
+    section {
+      margin-top: 5rem;
+    }
 
 
 

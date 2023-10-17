@@ -3,13 +3,13 @@ nav {
     position: relative;
 }
 body {
-    background-image: url('../starter-code/assets/technology/background-technology-desktop.jpg');
+    background-image: url('./assets/technology/background-technology-desktop.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .loader {
-  background: #ffffff url('../starter-code/assets/shared/LOADER.gif') center no-repeat;
+  background: #ffffff url('./assets/shared/LOADER.gif') center no-repeat;
   background-size: 20%;
   height: 100vh;
   width: 100%;
@@ -405,7 +405,7 @@ hr {
           height: 100vh;
           padding-top: 100px;
           background-color: #ffffff1e ;
-          backdrop-filter: blur(10px);
+          backdrop-filter: blur(30px);
           
       }
       

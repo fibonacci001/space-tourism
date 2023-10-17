@@ -252,7 +252,7 @@ button:hover {
     right: -900px;
     
     background-color: #ffffff1e ;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(40px);
     transition: right .5s;
     z-index: 100;
       

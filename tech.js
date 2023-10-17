@@ -43,6 +43,17 @@ menu.addEventListener('click', () => {
 });
 
 
+
+
+if(desktopMediaQuery.matches) {
+  menu.addEventListener('click', () => {
+    line.style.width = '0%';
+  });
+  cancel.addEventListener('click', () => {
+    line.style.width = '75%'
+  })
+};
+
 tabLinks.forEach(link => {
 
     link.addEventListener('click', e => {
@@ -53,26 +64,26 @@ tabLinks.forEach(link => {
       // Update image based on tab ID
       switch(tabID) {
         case '#v-pills-home':
-            tech_portrait.src = '../starter-code/assets/technology/image-launch-vehicle-portrait.jpg';
-            tech_landscape.src = '../starter-code/assets/technology/image-launch-vehicle-landscape.jpg';
+            tech_portrait.src = './assets/technology/image-launch-vehicle-portrait.jpg';
+            tech_landscape.src = './assets/technology/image-launch-vehicle-landscape.jpg';
 
           number.textContent = '01'
           break;
         case '#v-pills-profile': 
-        tech_portrait.src = '../starter-code/assets/technology/image-Spaceport-portrait.jpg';
-            tech_landscape.src = '../starter-code/assets/technology/image-Spaceport-landscape.jpg';
+        tech_portrait.src = './assets/technology/image-Spaceport-portrait.jpg';
+            tech_landscape.src = './assets/technology/image-Spaceport-landscape.jpg';
           
           number.textContent = '02'
           break;
   
           case '#v-pills-messages': 
-          tech_portrait.src = '../starter-code/assets/technology/image-Space-capsule-portrait.jpg';
-            tech_landscape.src = '../starter-code/assets/technology/image-Space-capsule-landscape.jpg';
+          tech_portrait.src = './assets/technology/image-Space-capsule-portrait.jpg';
+            tech_landscape.src = './assets/technology/image-Space-capsule-landscape.jpg';
           number.textContent = '03'
           break;
   
           case '#pills-titans': 
-          crewImage.src = '../starter-code/assets/crew/image-Anousheh-Ansari.png';
+          crewImage.src = './assets/crew/image-Anousheh-Ansari.png';
           number.textContent = '04'
           break;
         // etc for other tabs

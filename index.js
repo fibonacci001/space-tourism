@@ -23,6 +23,17 @@ menu.addEventListener('click', () => {
 
 
 });
+const desktopMediaQuery = window.matchMedia('(max-width: 768px)');
+
+
+if(desktopMediaQuery.matches) {
+  menu.addEventListener('click', () => {
+    line.style.width = '0%';
+  });
+  cancel.addEventListener('click', () => {
+    line.style.width = '75%'
+  })
+}
 const title = document.querySelector('title');
 console.log(title);
 const originalTitle = title.textContent;

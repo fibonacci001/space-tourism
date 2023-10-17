@@ -69,6 +69,19 @@ tabLinks.forEach(tab => {
 
   });
 
+  const desktopMediaQuery = window.matchMedia('(max-width: 768px)');
+
+
+  if(desktopMediaQuery.matches) {
+    menu.addEventListener('click', () => {
+      line.style.width = '0%';
+    });
+    cancel.addEventListener('click', () => {
+      line.style.width = '75%'
+    })
+  }
+
+
   // Size function
   function setImageSize() {
     const tabName = activeTab.split('-').pop();
