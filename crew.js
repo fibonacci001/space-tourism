@@ -142,7 +142,7 @@ tabLinks.forEach(link => {
           number.textContent = '01'
           break;
         case '#pills-profile': 
-        crewImage.src = './assets/crew/image-Mark-Shuttleworth.png';
+        crewImage.src = './assets/crew/image-mark-shuttleworth.webp';
           
           number.textContent = '02'
           break;
@@ -153,14 +153,13 @@ tabLinks.forEach(link => {
           break;
   
           case '#pills-titans': 
-          crewImage.src = './assets/crew/image-Anousheh-Ansari.png';
+          crewImage.src = './assets/crew/image-Anousheh-Ansari.webp';
           number.textContent = '04'
           break;
         // etc for other tabs
       }
   
-      // Additional logic to update tab content, 
-      // highlight active tab link, etc
+      
   
     });
   
