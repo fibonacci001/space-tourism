@@ -95,11 +95,7 @@ h1 {
 
 body {
     color: white;
-<<<<<<< HEAD
     background-image: url('./assets/home/background-home-desktop.jpg');
-=======
-    background-image: url('./assets/home/background-home-desktop.jpg');
->>>>>>> 3559ef9802d6ac8dc5ea5447431b55bf447b6a8a
 }
 .button_div {
     position: relative;
@@ -357,6 +353,7 @@ h2 {
 }
 body {
   background-image: url('./assets/home/background-home-mobile.jpg');
+  background-repeat: no-repeat;
 }
 section {
   margin-top: 1rem;
@@ -413,7 +410,9 @@ nav .navigation.show {
 
 
 }
+@media (max-width:450px) {
 
+}
 @media (max-width:300px) {
   .my_nav_links {
     font-size: 13px;
