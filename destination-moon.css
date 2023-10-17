@@ -4,14 +4,14 @@ nav {
 }
 body {
     color: white;
-    background-image: url('../starter-code/assets/destination/background-destination-desktop.jpg');
+    background-image: url('./assets/destination/background-destination-desktop.jpg');
     /* height: 100vh; */
     background-repeat: no-repeat;
     background-size: cover;
    
 }
 .loader {
-  background: #ffffff url('../starter-code/assets/shared/LOADER.gif') center no-repeat;
+  background: #ffffff url('./assets/shared/LOADER.gif') center no-repeat;
   background-size: 20%;
   height: 100vh;
   width: 100%;
@@ -384,7 +384,7 @@ h1 {
   }
    */
    body {
-    background-image: url('../starter-code/assets/destination/background-destination-tablet.jpg');
+    background-image: url('./assets/destination/background-destination-tablet.jpg');
     background-repeat: no-repeat;
     
   background-size: cover;
@@ -469,7 +469,7 @@ h1 {
   text-align: center;
 }
 body {
-  background-image: url('../starter-code/assets/destination/background-destination-mobile.jpg');
+  background-image: url('./assets/destination/background-destination-mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }

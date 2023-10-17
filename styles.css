@@ -247,7 +247,7 @@ button:hover {
     right: -900px;
     
     background-color: #ffffff1e ;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
     transition: right .5s;
     z-index: 100;
       
@@ -349,14 +349,15 @@ h1 {
 
 h2 {
   font-size: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 body {
   background-image: url('./assets/home/background-home-mobile.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 section {
-  margin-top: 6rem;
+  margin-top: 16rem;
 }
 .my_logo {
   width: 24px;

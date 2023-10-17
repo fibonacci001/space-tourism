@@ -126,7 +126,7 @@ tabLinks.forEach(tab => {
 
 
 // Set default image on page load
-destImage.src = '../starter-code/assets/destination/image-moon.png'; 
+destImage.src = './assets/destination/image-moon.png'; 
 
 // Add click event to tab links
 tabLinks.forEach(link => {
@@ -139,21 +139,21 @@ console.log(tabID)
     // Update image based on tab ID
     switch(tabID) {
       case '#pills-home':
-        destImage.src = '../starter-code/assets/destination/image-moon.png';
+        destImage.src = './assets/destination/image-moon.png';
         number.textContent = '01'
         break;
       case '#pills-profile': 
-        destImage.src = '../starter-code/assets/destination/image-mars.png';
+        destImage.src = './assets/destination/image-mars.png';
         number.textContent = '02'
         break;
 
         case '#pills-contact': 
-        destImage.src = '../starter-code/assets/destination/image-europa.png';
+        destImage.src = './assets/destination/image-europa.png';
         number.textContent = '03'
         break;
 
         case '#pills-titans': 
-        destImage.src = '../starter-code/assets/destination/image-titan.png';
+        destImage.src = './assets/destination/image-titan.png';
         number.textContent = '04'
         break;
       // etc for other tabs
