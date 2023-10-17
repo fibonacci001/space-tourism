@@ -1,0 +1,529 @@
+nav {
+    justify-content: space-between;
+    position: relative;
+}
+body {
+    background-image: url('../starter-code/assets/crew/background-crew-desktop.jpg');
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    color: white;
+    
+}
+section {
+    margin-top: 6rem;
+}
+.content-div {
+justify-content: space-between;
+}
+.tab_control {
+  margin-top: 2rem;
+}
+.my-uls {
+    display: flex;
+    padding: 10px;
+    background-color: #ffffff2d ;
+    margin-right: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+.nav-pills .newer{
+    color: white;
+    background-color: white;
+    
+    opacity: 0.5;
+
+    border-radius: 50%;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    margin-left: 10px;
+    padding: 5px 5px 5px 5px;
+    width: 5px ;
+    margin-top: 3rem;
+}
+.nav-pills .newer.active {
+    background-color: white;
+    position: relative;
+    opacity: 1;
+    
+}
+
+
+
+hr {
+    width: 45rem;
+    /* width: clamp(30rem, 44rem, 45rem); */
+    /* color: red; */
+    /* color: #ffffff80; */
+    border: solid #ffffff75 2px;
+    position: absolute;
+    left: 8%;
+    top: 35%;
+    transition: width 0.7s ease;
+    }
+    .my_nav_linkss {
+      list-style: none;
+      margin-right: 25px;
+      padding-bottom: 10px;
+      padding-top: 5px;
+      position: relative;
+    }
+    
+    .my_nav_linkss::after {
+      position: absolute;
+      content: " ";
+      width: 90%;
+      height: 17px;
+      left: 5%;
+      top: 90%;
+      border-bottom: solid white 2px;
+      transition: width 0.3s ease-out;
+    }
+    .my_nav_linkss:hover::after {
+      width: 0%;
+      
+      }
+    .my_nav_links {
+        list-style: none;
+        margin-right: 25px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        position: relative;
+    }
+    .my_nav_links::after {
+        position: absolute;
+        content: " ";
+        width: 0%;
+        height: 17px;
+        left: 5%;
+        top: 90%;
+        border-bottom: solid white 2px;
+        transition: width 0.5s ease-out;
+    }
+    .my_nav_links:hover::after {
+    width: 90%;
+    }
+    .link-div {
+        float: right;
+        
+    }
+    .menu {
+        color: white;
+        float: right;
+        font-size: 80px;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #cancel {
+    
+    
+        float: right;
+        cursor: pointer;
+        z-index: 99;
+        display: none; 
+    }
+    h1 {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 28px;
+        text-transform: uppercase;
+        font-weight: 300;
+        /* margin-bottom: 7rem; */
+      }
+      h2{
+        font-family: 'Bellefair', serif;
+        font-size: 1rem;
+        color: #D0D6F9;
+        text-transform: uppercase;
+      }
+      .meet {
+        margin-bottom: 6rem;
+      }
+      .num {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: bold;
+        color: #D0D6F9;
+        display: inline-block;
+        margin-right: 10px;
+      }
+    .moonparagh {
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 32px;
+    font-size: 18px;
+    max-width: 444px;
+
+}
+.image-div {
+  margin-top: -7rem;
+}
+.crew-image {
+    width: 340px;
+}
+.loader {
+  background: #ffffff url('../starter-code/assets/shared/LOADER.gif') center no-repeat;
+  background-size: 20%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+
+
+
+
+
+
+    @media (max-width:1345px)  {
+        hr {
+          /* display: none; */
+          width: 40rem;
+        }  
+        
+      }
+      @media (max-width:1267px)  {
+        hr {
+          /* display: none; */
+          width: 35rem;
+        }  
+        
+      }
+      @media (max-width:1177px)  {
+        hr {
+          /* display: none; */
+          width: 34rem;
+        }  
+        
+      }
+      @media (max-width:1158px)  {
+        hr {
+          /* display: none; */
+          width: 33rem;
+        }  
+        
+      }
+      @media (max-width:1138px)  {
+        hr {
+          /* display: none; */
+          width: 32rem;
+        }  
+        
+      }
+      @media (max-width:1120px)  {
+        hr {
+          /* display: none; */
+          width: 31rem;
+        }  
+        
+      }
+      @media (max-width:1104px)  {
+        hr {
+          /* display: none; */
+          width: 30rem;
+        }  
+        
+      }
+      @media (max-width:1083px)  {
+        hr {
+          /* display: none; */
+          width: 28rem;
+        }  
+        
+      }
+      @media (max-width:1052px)  {
+        hr {
+          /* display: none; */
+          width: 25rem;
+        }  
+        
+      }
+      @media (max-width:1000px)  {
+        hr {
+          /* display: none; */
+          width: 22rem;
+        }  
+         /* .first-div {
+          
+        } */
+        
+    .content-div {
+      text-align: center;
+      margin-left: auto;
+      margin-top: 2rem;
+      flex-direction: column;
+          justify-content: center;
+          align-items: center;
+    }
+    
+    .shaper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /*
+    .moonparagh {
+      width: auto;
+    }
+    .distance {
+      justify-content: space-around;
+    }
+    .est {
+      margin-left: auto;
+    }
+    .destination-image {
+      width: 300px;
+      height: 300px;
+    } */
+      }
+    
+      @media (max-width:944px)  {
+        hr {
+          /* display: none; */
+          width: 19rem;
+        }  
+        
+      }
+      @media (max-width:890px)  {
+        hr {
+          /* display: none; */
+          width: 16rem;
+        }  
+        
+      }
+      @media (max-width:999px)  {
+        hr {
+          /* display: none; */
+          width: 12rem;
+        }  
+        .tab_control {
+          margin-bottom: 10rem;
+        }
+        .image-div {
+          z-index: 90;
+        }
+        .shaper {
+          z-index: 99;
+        }
+      }
+      @media (max-width:790px)  {
+        hr {
+          /* display: none; */
+          width: 75%
+        }  
+        .meet {
+          margin-bottom: 2rem;
+        }
+        nav .navigation {
+              
+          width: 70%;
+          height: 100vh;
+          position: fixed;
+          top: 0px;
+          
+          right: -900px;
+          /* background-color: rgb(255, 255, 255); */
+          transition: right .5s;
+          z-index: 100;
+            
+      
+      }
+    
+      .menu {
+          z-index: 100;
+          float: right;
+          margin-top: 15px;
+          font-size: 50px;
+          color: black;
+          display: block;
+          z-index: 99;
+      } 
+      
+      .my-uls  {
+          /* display: block; */
+          flex-direction: column;
+          line-height: 48px;
+          height: 100vh;
+          padding-top: 100px;
+          background-color: #ffffff1e ;
+          backdrop-filter: blur(10px);
+          
+      }
+      
+      /* .holder1 {
+          position: relative;
+          top: 5px;
+          left: 0px;
+          width: auto;
+          background-color: #66666600;
+          box-shadow: 0px 1px 6px #66666600;
+      
+      
+      } */
+      nav .navigation.show {
+              
+        right: -150px;
+        
+      }
+     
+          #cancel {      
+            cursor: pointer;
+            z-index: 99;
+            width: 30px;
+            height: 30px;
+            display: block; 
+            position: absolute;
+            right: 200px;
+            top: 20px;
+        }
+        .image-div {
+          margin-top: 0rem;
+        }
+        .crew-image {
+            width: 300px;
+        }
+        
+      
+      
+      
+      }
+      @media (max-width:420px) {
+        .crew-image {
+          width: 230px;
+      }
+
+        h1 {
+          font-size: 5rem;
+          line-height: 1.5rem;
+        }
+        .my-uls {
+          line-height: 33px;
+          
+          padding-left: 10%;
+          padding-top: 70px;
+        }
+        .menu {
+          width: 24px;
+          height: 21px;
+          margin-top: 5px;
+          margin-right: 0;
+          
+        }
+        .my_logo {
+          width: 24px;
+          height: 24px;
+          margin-top: 10px;
+        }
+        hr {
+          left: 15%;
+          width: 70%;
+        }
+    
+    
+    
+        .tab_control {
+          margin-bottom: 0rem;
+        }
+    
+    
+        .intro {
+          font-size: 2rem;
+        }
+        .moonparagh {
+          font-size: 13px;
+          list-style: 30px;
+          width: 90%;
+          margin: auto 0;
+        }
+        .distance {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+       
+    
+        .but-con {
+          font-size: 10px;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+          margin-left: 0;
+        }
+        .image-div {
+          width: 100%;
+        }
+       .destination-image {
+        width: 70%;
+        height: 70%;
+        margin: auto;
+        
+    }
+    .dest-img {
+      display: flex;
+      justify-content: center;
+        align-items: center;
+    }
+    h1 {
+      font-size: 18px;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    body {
+      background-image: url('../starter-code/assets/crew/background-crew-mobile.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .my_nav_links::after {
+      top: 45%;
+      left: 0%;
+      transition: width 0.8s ease-out;
+    }
+    .my_nav_links:hover::after {
+      width: 430%;
+      }
+      .my_nav_linkss::after {
+        top: 45%;
+        left: 0%;
+        width: 500%;
+        transition: width 0.9s ease-out;
+      }
+      .my_nav_linkss:hover::after {
+        width: 0%;
+        }
+        section {
+          margin-top: 2rem;
+        }
+        nav .navigation.show {
+            
+          right: -20px;
+          
+        }
+        #cancel {
+          top: 40px;
+          right: 40px;
+        
+          width: 20px;
+          height: 20px;
+        }
+        .content-div {
+          flex-direction: column-reverse;
+        }
+        .image-div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-bottom: solid 1px #979797;
+        }
+    
+        .meet {
+          text-align: center;
+        }
+        .tab_control {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+      }

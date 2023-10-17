@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="destination-moon.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <div class="loader"></div>
+<main>
+  <nav class="container-fluid pt-3">
+    <a href="index.html" class="">
+    <img src="../starter-code/assets/shared/logo.svg" alt="" class="square xyz-in my_logo" xyz="fade tall-25% duration-10 delay-5">
+    </a>
+    <hr class="lines">
+    <div class="link-div navigation">
+      <img src="../starter-code/assets/shared/icon-close.svg" alt="" id="cancel">
+
+      <ul class="my-uls" xyz="fade small duration-10 stagger">
+        <li class="my_nav_links square xyz-in"><a class="nav-link" href="index.html">00 Home</a> </li>
+        <li class="my_nav_linkss square xyz-in"><a class="nav-link" href="destination-moon.html">01 Destination</a> </li>
+        <li class="my_nav_links square xyz-in"><a class="nav-link" href="crew-commander.html">02 Crew</a> </li>
+        <li class="my_nav_links square xyz-in"><a class="nav-link" href="technology-vehicle.html">03 Technology</a> </li>
+  
+  
+  
+  
+  </ul>
+  </div>
+  <img src="../starter-code/assets/shared/icon-hamburger.svg" alt="" class="menu">
+  </nav>
+
+<section class="container d-flex first-div">
+<div class="image-div">
+  <h1>
+  <span class="num">01</span> Pick your destination
+  </h1>
+  <div class="dest-img">
+  <img src="../starter-code/assets/destination/image-moon.png" alt="" class="destination-image square xyz-in" xyz="flip-right-25%  duration-15">
+</div>
+</div>
+<div class="me-auto content-div">
+
+
+
+  <ul class="nav nav-pills mb-3 item-group but-con" id="pills-tab" xyz="fade small duration-15 delay-5" role="tablist">
+    <li class="nav-item " role="presentation">
+      <button class="nav-link active con square xyz-in" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Moon</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link con square xyz-in"  id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"> Mars</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link con square xyz-in"  id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Europa</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link con square xyz-in"   id="pills-titans-tab" data-bs-toggle="pill" data-bs-target="#pills-titans" type="button" role="tab" aria-controls="pills-titans" aria-selected="false">titans</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+ <h2 class="intro square xyz-in" xyz=" fade left-75% duration-10"> MOON</h2>
+<p class="moonparagh square xyz-in" xyz=" fade left-75% duration-15">
+  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+  regain perspective and come back refreshed. While you’re there, take in some history 
+  by visiting the Luna 2 and Apollo 11 landing sites.
+</p>
+<div class="distance item-group" xyz="fade stagger duration-5 delay-5">
+ <div class="avg square xyz-in" xyz="inherit up">
+  <p class="first">Avg. distance</p>
+  
+  <p class="second">384,400 km</p>
+  
+  </div>
+<div class="est square xyz-in" xyz="inherit down">
+  <p class="first"> Est. travel time</p>
+
+ 
+  <p class="second">3 days</p>
+  
+  </div>
+  </div>
+</div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+      <h2 class="intro square xyz-in" xyz=" fade left-25% duration-10"> MARS</h2>
+      <p class="moonparagh square xyz-in" xyz=" fade left-25% duration-15">
+        Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+        the tallest planetary mountain in our solar system. It’s two and a half times 
+        the size of Everest!
+      </p>
+      <div class="distance item-group" xyz="fade stagger duration-5 delay-5">
+       <div class="avg square xyz-in" xyz="inherit up">
+        <p class="first">Avg. distance</p>
+        
+        <p class="second">225 mil. km</p>
+        
+        </div>
+      <div class="est square xyz-in" xyz="inherit down">
+        <p class="first"> Est. travel time</p>
+      
+       
+        <p class="second">9 months</p>
+        
+        </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+      <h2 class="intro square xyz-in" xyz=" fade left-25% duration-10"> EUROPA</h2>
+      <p class="moonparagh square xyz-in" xyz=" fade left-25% duration-15">
+        The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+  winter lover’s dream. With an icy surface, it’s perfect for a bit of 
+  ice skating, curling, hockey, or simple relaxation in your snug 
+  wintery cabin.
+      </p>
+      <div class="distance item-group" xyz="fade stagger duration-5 delay-5">
+       <div class="avg square xyz-in" xyz="inherit up">
+        <p class="first">Avg. distance</p>
+        
+        <p class="second">628 mil. km</p>
+        
+        </div>
+      <div class="est square xyz-in" xyz="inherit down">
+        <p class="first"> Est. travel time</p>
+      
+       
+        <p class="second"> 3 years</p>
+        
+        </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-titans" role="tabpanel" aria-labelledby="pills-titans-tab" tabindex="0">
+      <h2 class="intro square xyz-in" xyz=" fade left-25% duration-10">TITANS</h2>
+      <p class="moonparagh square xyz-in" xyz=" fade left-25% duration-15">
+        The only moon known to have a dense atmosphere other than Earth, Titan 
+        is a home away from home (just a few hundred degrees colder!). As a 
+        bonus, you get striking views of the Rings of Saturn.
+      </p>
+      <div class="distance item-group"  xyz="fade stagger duration-5 delay-5">
+       <div class="avg square xyz-in" xyz="inherit up">
+        <p class="first">Avg. distance</p>
+        
+        <p class="second">1.6 bil. km</p>
+        
+        </div>
+      <div class="est square xyz-in" xyz="inherit down">
+        <p class="first"> Est. travel time</p>
+      
+       
+        <p class="second">7 years</p>
+        
+        </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+ 
+</div>
+</section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="destination-moon.js"></script>
+
+</body>
+</html>
