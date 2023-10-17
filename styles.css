@@ -95,7 +95,7 @@ h1 {
 
 body {
     color: white;
-    background-image: url('../starter-code/assets/home/background-home-desktop.jpg');
+    background-image: url('/assets/home/background-home-desktop.jpg');
 }
 .button_div {
     position: relative;
