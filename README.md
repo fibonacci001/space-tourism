@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](../starter-code/assets/shared/screenshot.png)
+![](./assets/shared/screenshot.png)
 
 
 ## My process
